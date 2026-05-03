@@ -13,10 +13,10 @@ const CACHE_NAME = 'blueprint-v2';
 
 // Assets to pre-cache for offline use
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/app.js',
-  '/manifest.json'
+  './',
+  'index.html',
+  'app.js',
+  'manifest.json'
 ];
 
 // ── INSTALL ──────────────────────────────────────────────────
@@ -88,7 +88,7 @@ self.addEventListener('notificationclick', (event) => {
         if (client.url.includes('/') && 'focus' in client) return client.focus();
       }
       // Otherwise open a new window
-      return clients.openWindow('/');
+      return clients.openWindow('./');
     })
   );
 });
