@@ -1,0 +1,25 @@
+{
+  "name": "Blueprint Protocol",
+  "short_name": "Blueprint",
+  "description": "Daily longevity & health protocol assistant",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0A0A0A",
+  "theme_color": "#0A0A0A",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='90' fill='%230A0A0A'/><text x='256' y='300' font-size='220' font-family='system-ui' font-weight='700' fill='%2300E5A0' text-anchor='middle'>B</text><circle cx='256' cy='420' r='12' fill='%2300E5A0' opacity='0.5'/></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='38' fill='%230A0A0A'/><text x='96' y='118' font-size='88' font-family='system-ui' font-weight='700' fill='%2300E5A0' text-anchor='middle'>B</text><circle cx='96' cy='156' r='5' fill='%2300E5A0' opacity='0.5'/></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
